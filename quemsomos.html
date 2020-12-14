@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="novo.css">
+    <link rel="stylesheet" type="text/css" href="novo_login.css">
+    <link rel="stylesheet" type="text/css" href="somos.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+    <script src="jquery-3.2.1.js"></script>
+</head>
+<body>
+     <div class="topnav">
+  <a href="novo.html">Inicio</a>
+  <a href="servicos.html">Serviços</a>
+  <a href="clientes.html">Clientes</a>
+  <a href="orcamentos.html">Orçamentos</a>
+  <a class="active" href="quemsomos.html">Quem Somos</a>
+  <a href="contactos.html">Contactos</a>
+  <div class="login-container">
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="imgs/index.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+       <button type="submit">Login</button>    
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="forgot.asp">Forgot password?</a></span>
+    </div>
+  </form>
+</div>
+  </div>
+</div>
+    <div class="equipa">
+        <h1>Sobre Nós</h1>
+        <p>Empresa criada em Novembro de 2018, sediada na Covilhã, a Just4Fun Lda é uma empresa criada por um jovem empreendedor.</p>
+        <p>Com três aréas de destaque, são elas a animação de eventos, desportos radicais e turismo de montanha,a Just4Fun tem como principais factores de diferenciação, a inovação, o compromisso com os clientes bem como a simpatia e amabilidade de toda a equipa.</p>
+        <p>Uma empresa em expansão, que através do investimento que tem vindo a realizar tem vindo a afirmar-se com uma empresa de referência no sector.Fornecemos serviços de elevado vaor e através de algumas das nossas acções, conduzimos centenas de pessoas á felicidade através da qualidade dos nossos serviços.</p>
+        <p>Atualmente poderá encontrar-nos no Parque Industrial do Tortosendo.</p>
+        <p>A Just4Fun, possui ainda um escritório e armazem, no Parque Industrial do Tortosendo, que tem um espaço infantil completamente dedicado ao acolhimento de festas de aniversário ou aluguere para eventos privados.</p>
+        
+        <p>Visite-nos e conheça o nosso trabalho || Just4Fun Criamos Emoções</p>
+    </div>
+<div class="footer">
+ <div class="social-footer">
+     <small>Just4FUN Todos os direitos reservados. Política de Privacidade</small>
+     <span>Liguem-se atráves:</span>
+     <lu>
+         <li><a href="https://twitter.com/" target="_blank" id="twitter"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ4Ni4zOTIgNDg2LjM5MiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDg2LjM5MiA0ODYuMzkyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPGc+CgkJPGc+CgkJCTxwYXRoIGQ9Ik0zOTUuMTkzLDBIOTEuMTk4QzQwLjgyNiwwLDAsNDAuODI2LDAsOTEuMTk4djMwMy45OTVjMCw1MC4zNzIsNDAuODI2LDkxLjE5OCw5MS4xOTgsOTEuMTk4ICAgICBoMzAzLjk5NWM1MC4zNzIsMCw5MS4xOTgtNDAuODI3LDkxLjE5OC05MS4xOThWOTEuMTk4QzQ4Ni4zOTIsNDAuODI2LDQ0NS41NjUsMCwzOTUuMTkzLDB6IE0zNjQuMTg2LDE4OC41OThsMC4xODIsNy43NTIgICAgIGMwLDc5LjE2LTYwLjIyMSwxNzAuMzU5LTE3MC4zNTksMTcwLjM1OWMtMzMuODA0LDAtNjUuMjY4LTkuOTEtOTEuNzc2LTI2LjkwNGM0LjY4MiwwLjU0Nyw5LjQ1NCwwLjg1MSwxNC4yODgsMC44NTEgICAgIGMyOC4wNTksMCw1My44NjgtOS41NzYsNzQuMzU3LTI1LjYyN2MtMjYuMjA0LTAuNDg2LTQ4LjMwNS0xNy44MTQtNTUuOTM1LTQxLjU4NmMzLjY3OCwwLjY2OSw3LjM4NywxLjAzNCwxMS4yNzgsMS4wMzQgICAgIGM1LjQ3MiwwLDEwLjc2MS0wLjY5OSwxNS43NzctMi4wNjdjLTI3LjM5LTUuNTMzLTQ4LjAzMS0yOS43LTQ4LjAzMS01OC43MDF2LTAuNzZjOC4wODYsNC40OTksMTcuMjk3LDcuMTc0LDI3LjExNiw3LjUwOSAgICAgYy0xNi4wNTEtMTAuNzMxLTI2LjYzLTI5LjA2Mi0yNi42My00OS44MjVjMC0xMC45NzQsMi45NDktMjEuMjQ5LDguMDg2LTMwLjA5NWMyOS41MTgsMzYuMjM2LDczLjY1OCw2MC4wNjksMTIzLjQyMiw2Mi41NjIgICAgIGMtMS4wMzQtNC4zNzgtMS41NS04Ljk2OC0xLjU1LTEzLjY0OWMwLTMzLjA0NCwyNi44MTItNTkuODU3LDU5Ljg4Ny01OS44NTdjMTcuMjA2LDAsMzIuNzcxLDcuMjY1LDQzLjcxNCwxOC45MDggICAgIGMxMy42MTktMi43MDYsMjYuNDQ4LTcuNjkxLDM4LjAzLTE0LjUzMWMtNC40NjksMTMuOTg0LTEzLjk1MywyNS43MTgtMjYuMzI2LDMzLjEzNWMxMi4wNjktMS40MjksMjMuNjUxLTQuNjgyLDM0LjM4Mi05LjQyNCAgICAgQzM4Ni4wNzMsMTY5LjY1OSwzNzUuODg5LDE4MC4yMDgsMzY0LjE4NiwxODguNTk4eiIgZmlsbD0iIzAwMDAwMCIvPgoJCTwvZz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K"/></a></li>
+         <li><a href="https://pt.linkedin.com/" target="_blank" id="link"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDQzMC4xMTcgNDMwLjExOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDMwLjExNyA0MzAuMTE4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggaWQ9IkxpbmtlZEluX194MjhfYWx0X3gyOV8iIGQ9Ik0zOTguMzU1LDBIMzEuNzgyQzE0LjIyOSwwLDAuMDAyLDEzLjc5MywwLjAwMiwzMC44MTd2MzY4LjQ3MSAgIGMwLDE3LjAyNSwxNC4yMzIsMzAuODMsMzEuNzgsMzAuODNoMzY2LjU3M2MxNy41NDksMCwzMS43Ni0xMy44MTQsMzEuNzYtMzAuODNWMzAuODE3QzQzMC4xMTUsMTMuNzk4LDQxNS45MDQsMCwzOTguMzU1LDB6ICAgIE0xMzAuNCwzNjAuMDM4SDY1LjQxM1YxNjUuODQ1SDEzMC40VjM2MC4wMzh6IE05Ny45MTMsMTM5LjMxNWgtMC40MzdjLTIxLjc5MywwLTM1LjkyLTE0LjkwNC0zNS45Mi0zMy41NjMgICBjMC0xOS4wMzUsMTQuNTQyLTMzLjUzNSwzNi43NjctMzMuNTM1YzIyLjIyNywwLDM1Ljg5OSwxNC40OTYsMzYuMzMxLDMzLjUzNUMxMzQuNjU0LDEyNC40MTUsMTIwLjU1NSwxMzkuMzE1LDk3LjkxMywxMzkuMzE1eiAgICBNMzY0LjY1OSwzNjAuMDM4aC02NC45NjZWMjU2LjEzOGMwLTI2LjEwNy05LjQxMy00My45MjEtMzIuOTA3LTQzLjkyMWMtMTcuOTczLDAtMjguNjQyLDEyLjAxOC0zMy4zMjcsMjMuNjIxICAgYy0xLjczNiw0LjE0NC0yLjE2Niw5Ljk0LTIuMTY2LDE1LjcyOHYxMDguNDY4aC02NC45NTRjMCwwLDAuODUtMTc1Ljk3OSwwLTE5NC4xOTJoNjQuOTY0djI3LjUzMSAgIGM4LjYyNC0xMy4yMjksMjQuMDM1LTMyLjEsNTguNTM0LTMyLjFjNDIuNzYsMCw3NC44MjIsMjcuNzM5LDc0LjgyMiw4Ny40MTRWMzYwLjAzOHogTTIzMC44ODMsMTkzLjk5ICAgYzAuMTExLTAuMTgyLDAuMjY2LTAuNDAxLDAuNDItMC42MTR2MC42MTRIMjMwLjg4M3oiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /></a></li>
+         <li><a href="https://www.instagram.com/" target="_blank" id="insta"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDk3LjM5NSA5Ny4zOTUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDk3LjM5NSA5Ny4zOTU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMTIuNTAxLDBoNzIuMzkzYzYuODc1LDAsMTIuNSw1LjA5LDEyLjUsMTIuNXY3Mi4zOTVjMCw3LjQxLTUuNjI1LDEyLjUtMTIuNSwxMi41SDEyLjUwMUM1LjYyNCw5Ny4zOTUsMCw5Mi4zMDUsMCw4NC44OTUgICBWMTIuNUMwLDUuMDksNS42MjQsMCwxMi41MDEsMEwxMi41MDEsMHogTTcwLjk0OCwxMC44MjFjLTIuNDEyLDAtNC4zODMsMS45NzItNC4zODMsNC4zODV2MTAuNDk1YzAsMi40MTIsMS45NzEsNC4zODUsNC4zODMsNC4zODUgICBoMTEuMDA4YzIuNDEyLDAsNC4zODUtMS45NzMsNC4zODUtNC4zODVWMTUuMjA2YzAtMi40MTMtMS45NzMtNC4zODUtNC4zODUtNC4zODVINzAuOTQ4TDcwLjk0OCwxMC44MjF6IE04Ni4zODcsNDEuMTg4aC04LjU3MiAgIGMwLjgxMSwyLjY0OCwxLjI1LDUuNDUzLDEuMjUsOC4zNTVjMCwxNi4yLTEzLjU1NiwyOS4zMzItMzAuMjc1LDI5LjMzMmMtMTYuNzE4LDAtMzAuMjcyLTEzLjEzMi0zMC4yNzItMjkuMzMyICAgYzAtMi45MDQsMC40MzgtNS43MDgsMS4yNS04LjM1NWgtOC45NDV2NDEuMTQxYzAsMi4xMjksMS43NDIsMy44NzIsMy44NzIsMy44NzJoNjcuODIyYzIuMTMsMCwzLjg3Mi0xLjc0MiwzLjg3Mi0zLjg3MlY0MS4xODggICBIODYuMzg3eiBNNDguNzg5LDI5LjUzM2MtMTAuODAyLDAtMTkuNTYsOC40ODUtMTkuNTYsMTguOTUzYzAsMTAuNDY4LDguNzU4LDE4Ljk1MywxOS41NiwxOC45NTMgICBjMTAuODAzLDAsMTkuNTYyLTguNDg1LDE5LjU2Mi0xOC45NTNDNjguMzUxLDM4LjAxOCw1OS41OTMsMjkuNTMzLDQ4Ljc4OSwyOS41MzN6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg=="/></a></li>
+         <li><a href="https://www.facebook.com/" target="_blank" id="face"></a><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDkwIDkwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA5MCA5MDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxwYXRoIGlkPSJGYWNlYm9va19feDI4X2FsdF94MjlfIiBkPSJNOTAsMTUuMDAxQzkwLDcuMTE5LDgyLjg4NCwwLDc1LDBIMTVDNy4xMTYsMCwwLDcuMTE5LDAsMTUuMDAxdjU5Ljk5OCAgIEMwLDgyLjg4MSw3LjExNiw5MCwxNS4wMDEsOTBINDVWNTZIMzRWNDFoMTF2LTUuODQ0QzQ1LDI1LjA3Nyw1Mi41NjgsMTYsNjEuODc1LDE2SDc0djE1SDYxLjg3NUM2MC41NDgsMzEsNTksMzIuNjExLDU5LDM1LjAyNFY0MSAgIGgxNXYxNUg1OXYzNGgxNmM3Ljg4NCwwLDE1LTcuMTE5LDE1LTE1LjAwMVYxNS4wMDF6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg=="/><a/></li>
+     </lu>
+    </div>
+    </div>
+    <script>
+// Get the modal
+var modal = document.getElementById("id01");
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

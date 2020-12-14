@@ -1,0 +1,62 @@
+
+#client{
+    position: relative;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    height: 759px;
+    width:100%;
+}
+
+#client h1{
+    top: 20px;
+    font-size: 45px;
+    position: relative;
+    left: 45%;
+}
+
+#client h2{
+    top: 40px;
+    left: 10%;
+    font-size: 33px;
+    position: relative;
+    float: left;
+}
+
+#client h1:hover{
+    color: lightgreen;
+}
+
+#client h2:hover{
+    color: lightgreen;
+}
+
+#client img{
+    border: 2px black solid;
+    border-radius: 25px;
+    height: 180px;
+    width: 180px;
+    margin-right: 50px;
+    margin-left: 50px
+}
+
+#client .lista1 li{
+    position: relative;
+    top: 140px;
+    display: inline-block;
+}
+
+#client .lista2 li{
+    position: relative;
+    left: 69px;
+    top: 150px;
+    display: inline-block;
+}
+
+#client li img:hover{
+    border: 2px black solid;
+    opacity: 0.8;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}

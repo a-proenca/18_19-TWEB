@@ -1,0 +1,114 @@
+
+.icon-tele{
+    position: relative;
+    right: 760px;
+}
+
+.icon-marker{
+    position: relative;
+    right: 770px;
+}
+.maps .icon-tele{
+   height: 40px;
+    top: 510px;
+   width: 40px;
+}
+
+#cont{
+    position: relative;
+    left: 120%;
+    bottom: 65%;
+    width: 500px;
+    border: 4px green solid;
+}
+
+#loc{
+    position: relative;
+    left: 120%;
+    bottom: 105%;
+    width: 500px;
+    border: 4px green solid;
+}
+
+#maill{
+    position: relative;
+    left: 120%;
+    bottom: 35%;
+    width: 500px;
+    border:4px green solid;
+}
+
+.maps .icon-marker{
+    top:260px;
+    height: 40px;
+    width: 40px;
+}
+.icon-mail{
+    position: relative;
+    right: 770px;
+}
+.icon-tele:hover{
+    transform: scale(1.5);
+}
+.icon-marker:hover{
+     transform: scale(1.5);
+}
+.icon-mail:hover{
+    transform: scale(1.5);
+}
+.maps .icon-mail {
+    top: 770px;
+    height: 40px;
+    width: 40px;
+}
+
+.cont{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    height: 759px;
+    width:100%;
+}
+
+h1{
+    top: 20px;
+    font-size: 45px;
+    position: relative;
+    left: 45%;
+}
+
+h1:hover{
+    color: lightgreen;
+}
+
+.cont img{
+    position: fixed;
+    height: 150px;
+    width: 170px;
+    top: 130px;
+    z-index: 1;
+    margin-left: 40px;
+}
+
+.maps{
+    border-radius: 15px;
+    position: fixed;
+    background-color: white;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 60px;
+    height: 560px;
+}
+/*
+#map{
+    height: 1%
+    width: 1%;
+}
+*/
+#map img{
+    position: sticky;
+    border-radius: 15px;
+    height: 560px;
+    margin: 0;
+    width: 1000px;
+}

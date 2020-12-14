@@ -1,0 +1,46 @@
+
+.equipa{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    height: 759px;
+    width:100%;
+}
+
+.equipa h1{
+    top: 40px;
+    font-size: 45px;
+    position: relative;
+    left: 45%;
+}
+
+.equipa h1:hover{
+    color: lightgreen;
+}
+/*
+.equipa li{
+    position: relative;
+    top: 35px;
+    left: 32%;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    border: 2px black solid;
+}
+*/
+p:nth-child(7){
+    font-weight: bold;
+}
+
+p{
+    max-width: 1700px;
+    left: 80px;
+    position: relative;
+    top: 170px;
+    text-align: justify;
+}
+
+.equipa img{
+    height: 200px;
+    width: 200px;
+}
